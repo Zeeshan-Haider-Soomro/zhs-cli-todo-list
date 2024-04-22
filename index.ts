@@ -1,3 +1,5 @@
+#! usr/bin/env node
+
 import inquirer from "inquirer";
 
 let todos = [];
@@ -23,3 +25,4 @@ while (condition) {
   condition = addTast.addMore;
   console.log(todos);
 }
+
